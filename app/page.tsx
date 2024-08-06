@@ -19,7 +19,22 @@ export default function Home() {
           </p>
           <Image src={feralCat} width={160} height={160} alt="Picture of cat in foliage" />
         </section>
-        
+        <section>
+          <h1>What Can Friends of Feral Felines Do For You?</h1>
+          <ul>
+            <li>Get Tips On How To Care For Feral Cats</li>
+            <li>Connect With Other Feral Cat Caretakers</li>
+            <li>Find Resources For Feral Cat Care</li>
+          </ul>
+        </section>
+        <div className={styles.footer}>
+          <p>&copy;Friends Of Feral Felines</p>
+          <ul className={styles.footerList}>
+            <li className={styles.listItem}>Privacy Policy |</li>
+            <li className={styles.listItem}>Terms Of Service |</li>
+            <li className={styles.listItem}>Contact Us</li>
+          </ul>
+        </div>
       </div>
     </main>
   );

@@ -7,6 +7,19 @@
   min-height: 100vh;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerList {
+  display: flex;
+}
+
+.listItem {
+  text-decoration: none;
+}
+
 /*.imageContainer {
   width: 20px;
   height: 1rem;
