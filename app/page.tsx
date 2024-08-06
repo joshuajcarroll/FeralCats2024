@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import catImage from "@/public/cat_icon.png"
 import feralCat from "@/public/matt-seymour-mgLloBtUdvE-unsplash.jpg";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -22,9 +23,9 @@ export default function Home() {
         <section>
           <h1>What Can Friends of Feral Felines Do For You?</h1>
           <ul>
-            <li>Get Tips On How To Care For Feral Cats</li>
-            <li>Connect With Other Feral Cat Caretakers</li>
-            <li>Find Resources For Feral Cat Care</li>
+            <Link href="/cat-care"><li>Get Tips On How To Care For Feral Cats</li></Link>
+            <Link href="/community"><li>Connect With Other Feral Cat Caretakers</li></Link>
+            <Link href="/resources"><li>Find Resources For Feral Cat Care</li></Link>
           </ul>
         </section>
         <div className={styles.footer}>
