@@ -1,17 +1,15 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import catImage from "@/public/cat_icon.png"
+
 import feralCat from "@/public/matt-seymour-mgLloBtUdvE-unsplash.jpg";
 import Link from "next/link";
+import Header from "./components/Header";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div>
-        <h1>Friends of Feral Felines</h1>
-        <div className={styles.imageContainer}>
-          <Image src={catImage} width={40} height={40} alt="Outline of cat" />
-        </div>
+        <Header />
         <section>
           <h1>About Us</h1>
           <h3>What is Friends of Feral Felines?</h3>
@@ -31,8 +29,8 @@ export default function Home() {
         <div className={styles.footer}>
           <p>&copy;Friends Of Feral Felines</p>
           <ul className={styles.footerList}>
-            <li className={styles.listItem}>Privacy Policy |</li>
-            <li className={styles.listItem}>Terms Of Service |</li>
+            <li className={styles.listItem}>Privacy Policy </li>
+            <li className={styles.listItem}>Terms Of Service </li>
             <li className={styles.listItem}>Contact Us</li>
           </ul>
         </div>
