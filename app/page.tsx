@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
-import feralCat from "@/public/matt-seymour-mgLloBtUdvE-unsplash.jpg";
+import feralCat from "@/public/sergey-ovchinnikov-r-qao0FAqzk-unsplash.jpg";
 import Link from "next/link";
 import Header from "./components/Header";
 
