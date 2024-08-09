@@ -3,20 +3,18 @@ import styles from "./page.module.css";
 
 import feralCat from "@/public/sergey-ovchinnikov-r-qao0FAqzk-unsplash.jpg";
 import Link from "next/link";
-import Header from "./components/Header";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div>
-        <Header />
         <section>
           <h1>About Us</h1>
           <h3>What is Friends of Feral Felines?</h3>
           <p>
             Friends of Feral Felines is a resource to help care for feral cats in the community.
           </p>
-          <Image src={feralCat} width={160} height={160} alt="Picture of cat in foliage" />
+          <Image src={feralCat} width={160} height={160} alt="Two cats near wooded area" />
         </section>
         <section>
           <h1>What Can Friends of Feral Felines Do For You?</h1>
