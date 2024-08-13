@@ -1,7 +1,12 @@
+import Image from "next/image";
+import tabbyCat from "@/public/pexels-roman-odintsov-5667944.jpg";
+
 export default function CatCare() {
     return (
     <div>
-      <h2>Cat Care Basics for Feral Cats</h2>
+      <h1>Cat Care for Feral Cats</h1>
+      <h2>A Comprehensive Guide to Helping Community Cats</h2>
+      <Image src={tabbyCat} width={160} height={160} alt="Person petting tabby cat"/>
       <h3>Feeding</h3>
       <p>
         Provide consistent feeding stations with dry or wet cat food suitable 
