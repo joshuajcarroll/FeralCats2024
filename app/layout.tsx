@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import { Poppins, Playfair_Display } from "next/font/google";
+import { Poppins, Lato } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 
 const poppins = Poppins({
   subsets: ["latin"],
-  weight: "200"
+  weight: "400"
 });
 
-const playfair_display = Playfair_Display({subsets: ["latin"],weight:"400",})
+const lato = Lato({subsets: ["latin"],weight:"400",})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} ${playfair_display}`}>
+      <body className={`${poppins.className} ${lato.className}`}>
         <Header />
         {children}
       </body>
