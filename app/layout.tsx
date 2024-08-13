@@ -5,10 +5,10 @@ import Header from "./components/Header";
 
 const poppins = Poppins({
   subsets: ["latin"],
-  weight: "100"
+  weight: "200"
 });
 
-const playfair_display = Playfair_Display({subsets: ["latin"]})
+const playfair_display = Playfair_Display({subsets: ["latin"],weight:"400",})
 
 export const metadata: Metadata = {
   title: "Create Next App",
