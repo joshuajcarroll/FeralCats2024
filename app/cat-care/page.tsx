@@ -25,9 +25,13 @@ export default function CatCare() {
       Remove food dishes within 30 minutes. Also, provide fresh water that is easy to access near their shelter, 
       especially in the summer. Dehydrated cats can experience headaches, stomach cramps, and loss of energy.
       </p>
+      <p><a href="https://www.neighborhoodcats.org/how-to-tnr/colony-care/feeding#:~:text=The%20ideal%20location%20of%20a,mind%22%20as%20much%20as%20possible.">
+                 How and Where to Feed Community Cats
+         </a>
+      </p>
       <h3>Shelter</h3>
       <p>
-        Create or provide outdoor shelters for feral cats to protect them from 
+        Create or provide outdoor shelters for community cats to protect them from 
         the elements.
       </p>
       <h3>Basic Health Care</h3>
