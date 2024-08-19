@@ -1,12 +1,15 @@
 import Image from "next/image";
 
 import calicoCat from "@/public/pexels-rasul70-18884320.jpg"
+import styles from "./page.module.css";
 
 export default function Resources() {
     return (
         <main>
             <h1>Resources for Community Cats</h1>
-            <Image src={calicoCat} height={160} width={160} alt="calico cat" />
+            <div className={styles.imageContainer}>
+                <Image src={calicoCat} alt="calico cat"/>
+            </div>
             <section>
                 <h3>Food Assistance Programs</h3>
                 <p>Brief overview of the importance of proper nutrition for feral cats</p>
