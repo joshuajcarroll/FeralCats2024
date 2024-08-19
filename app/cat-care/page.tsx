@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import "./page.module.css"
+import styles from "./page.module.css"
 import tabbyCat from "@/public/pexels-roman-odintsov-5667944.jpg";
 
 export default function CatCare() {
@@ -8,7 +8,9 @@ export default function CatCare() {
     <div className="cat-care">
       <h1>Cat Care for Feral Cats</h1>
       <h2>A Comprehensive Guide to Helping Community Cats</h2>
-      <Image src={tabbyCat} width={160} height={160} alt="Person petting tabby cat"/>
+    <div className={styles.careImageContainer}>
+        <Image src={tabbyCat} alt="Person petting tabby cat"/>
+    </div>
       <h3>What is a Community Cat?</h3>
       <p>Community Cat is an umbrella term used to encompass both stray cats and feral cats.
       A stray cat is a cat who once had a home or was socialized to people at some point in their life, 

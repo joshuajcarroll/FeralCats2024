@@ -1,0 +1,11 @@
+.careImageContainer {
+    width: 40rem;
+    height: 25rem;
+    border-radius: 8px;
+}
+
+.careImageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
