@@ -5,7 +5,7 @@ import Image from "next/image";
 import styles from "./Header.module.css";
 import catImage from "@/public/cat_icon.png";
 import Link from "next/link";
-import NavLink from "./main-header.tsx/nav-link";
+import NavLink from "./nav-link";
 
 export default function Header() {
     return (

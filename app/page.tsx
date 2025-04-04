@@ -14,7 +14,7 @@ export default function Home() {
           <p>
             Friends of Feral Felines is a resource to help care for feral cats in the community.
           </p>
-          <Image src={feralCat} width={160} height={160} alt="Two cats near wooded area" />
+          <Image src={feralCat} width={400} height={400} alt="Two cats near wooded area" />
         </section>
         <section>
           <h1>What Can Friends of Feral Felines Do For You?</h1>

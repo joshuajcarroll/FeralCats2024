@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins, Lato } from "next/font/google";
 import "./globals.css";
-import Header from "./components/Header";
+import Header from "./components/main-header.tsx/Header";
 
 const poppins = Poppins({
   subsets: ["latin"],
