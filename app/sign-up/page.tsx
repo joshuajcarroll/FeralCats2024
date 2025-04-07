@@ -18,24 +18,21 @@ export default function SignUp() {
     setError("");
 
     try {
-      const userCredential = await createUserWithEmailAndPassword(
-        auth,
-        email,
-        password
-      );
-
+      // Sign up the user with email and password
+      const userCredential = await createUserWithEmailAndPassword(auth, email, password);
       const user = userCredential.user;
 
-      // Update Firebase Auth profile with display name
+      // Update Firebase Auth profile with displayName (username)
       await updateProfile(user, { displayName: username });
 
-      // Store additional info in Firestore
+      // Store additional info (email, username, etc.) in Firestore
       await setDoc(doc(db, "users", user.uid), {
         email,
         username,
         createdAt: new Date(),
       });
 
+      // Redirect to chat page
       router.push("/chat-page");
     } catch (err: any) {
       console.error("Signup error:", err.message);
